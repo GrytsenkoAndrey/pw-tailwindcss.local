@@ -563,6 +563,14 @@ video {
   height: 1.5rem;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.underline{
+  text-decoration-line: underline;
+}
+
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 62.5%;
@@ -612,4 +620,29 @@ html {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.car-details{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+}
+
+.transform-50 {
+  transform: translate(-50%, -50%);
+}
+
+.model-name{
+  font-size: 4rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(57 60 65 / var(--tw-text-opacity));
+}
+
+.tag-line{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(76 77 81 / var(--tw-text-opacity));
 }
