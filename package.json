@@ -5,6 +5,7 @@
     "tailwindcss": "^3.2.1"
   },
   "scripts": {
-    "build": "tailwind build -i style.css -o public/tailwind.css"
+    "build": "tailwind build -i style.css -o public/tailwind.css",
+    "watch": "tailwind build -i style.css -o public/tailwind.css -w"
   }
 }
